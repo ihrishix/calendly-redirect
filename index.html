@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect Page</title>
+    <script>
+        // Get the current path
+        var path = window.location.pathname;
+        
+        // Check which path we're on and redirect accordingly
+        if (path === "/varish") {
+            window.location.href = "https://calendly.com/varish-socioplay/30min";
+        } else {
+            // Default redirect for any other path
+            window.location.href = "https://calendly.com/rushikesh-socioplay/30min";
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting you to the appropriate Calendly page...</p>
+</body>
+</html>
